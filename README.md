@@ -4,8 +4,8 @@ There are, I will freely admit, many a jQuery plugin to achieve exactly what
 this plugin does. At some point I searched and wasn't happy with what I found
 so I built this for my own use.
 
-== Usage ==
-```
+## Usage
+```javascript
 $('.selector').shroud([command][, options]);
 ```
 
@@ -13,14 +13,14 @@ If the <code>command</code> parameter is omitted, the <code>'drop'</code> comman
 is assumed (see below).
 
 The following commands are supported:
-```
+```javascript
 'drop'		// Drops the shroud over the selected elements.
 'lift'		// Lifts the shroud from the selected elements.
 'destroy'	// Lifts the shroud from the selected elements and removes it entirely from the DOM.
 ```
 
 The following options are available:
-```
+```javascript
 // Default options exposed so they can be updated globally.
 $.fn.shroud.defaults = {
 	opacity: .8,			// Opacity of the shroud
@@ -33,7 +33,7 @@ $.fn.shroud.defaults = {
 }
 ```
 
-== Feedback, Bug Reports & Contributions ===
+## Feedback, Bug Reports & Contributions 
 Support requests and bug reports can be posted to the 
 GitHub issue tracker](https://github.com/drzax/jquery-shroud/issues). If you'd 
 like to help improve jQuery.shroud feel free to submit a pull request via GitHub.
