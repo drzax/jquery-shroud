@@ -5,6 +5,7 @@ this plugin does. At some point I searched and wasn't happy with what I found
 so I built this for my own use.
 
 ## Usage
+
 ```javascript
 $('.selector').shroud([command][, options]);
 ```
@@ -13,6 +14,7 @@ If the <code>command</code> parameter is omitted, the <code>'drop'</code> comman
 is assumed (see below).
 
 The following commands are supported:
+
 ```javascript
 'drop'		// Drops the shroud over the selected elements.
 'lift'		// Lifts the shroud from the selected elements.
@@ -20,6 +22,7 @@ The following commands are supported:
 ```
 
 The following options are available:
+
 ```javascript
 // Default options exposed so they can be updated globally.
 $.fn.shroud.defaults = {
